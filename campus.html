@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OUR CAMPUS</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="../College_Project/icon/css/fontawesome.min.css"> -->
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo2.png" alt="logo2" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/team.html">TEAM</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+                    <li><a href="/campus.html">CAMPUS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>CAMPUS</h1>
+    </section>
+
+
+    <!-------------CAMPUS------------>>
+    <section class="campus">
+        <h1>Our Campus</h1>
+        <p>
+            The college has a sprawling eco-friendly vast campus with huge open space. <br> the college is spread across
+            28
+            acrs With over 500 tree.
+        </p>
+
+        <div class="row">
+            <div class="campus-cal">
+                <img src="img/outer.jpg" alt="" />
+                <div class="layer">
+                    <h3>COLLEGE OUTER VIEW</h3>
+                </div>
+            </div>
+            <div class="campus-cal">
+                <img src="img/ground.jpg" alt="" />
+                <div class="layer">
+                    <h3>GROUND VIEW</h3>
+                </div>
+            </div>
+            <div class="campus-cal">
+                <img src="img/inner.jpeg" alt="" />
+                <div class="layer">
+                    <h3>COLLEGE INNER VIEW</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------FACILITIES----------------------------->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>
+            The large range of facilities like Library,Ground and Canteen.
+        </p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/library.png" alt="" />
+                <h3>World Class Library</h3>
+                <p>
+                    Equipped to meet essential academic and intellectual needs of students.. Open access system,
+                    Spacious reading rooms provide an atmosphere conducive to study.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/basketball.png" alt="" />
+                <h3>Largest Play Ground</h3>
+                <p>
+                    College Provide Play Grounds Like 400 Mtrs Running Mud Track Along With One Multipurpose Hall where
+                    Indoor Games Facilities Are Available.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/cafeteria.png" alt="" />
+                <h3>Tasty And Healthy Food</h3>
+                <p>
+                    The objective of the Canteen and meal service is to protect by reducing the risk of foodborne
+                    illness, with proper sanitary conditions, and preventing adulterated food.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!----------- JavaScriot For Toggle Menu ----------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
